@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.left_cont {
+    background: #2e3338;
+    padding: 18px 30px 5px 30px !important;
+}
+.right_cont{
+    background: #e7ecef;
+}
+
+.logo-l{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-l img{
+    width: 150px;
+}
+
+.circle p {
+    margin-bottom: 0px;
+    line-height: 30px;
+    color: #65686c;
+    font-size: 14px;
+}
+.circle h5{
+    color: #65686c;
+    margin-bottom: 0;
+    line-height: 30px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.loading-l {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: 30px 0;
+}
+.circle {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    border: 3px solid #3c4045;
+    border-radius: 100%;
+}
+.box-cont-l{
+    background: #333941;
+    padding: 5px 10px 12px 10px;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.box-cont-l p{
+    color: #7e8185;
+}
+.about-r {
+    border-bottom: 1px solid #ccc;
+}
+
+#email{
+  margin: 0px 0px 20px 0px;
+}
+#country{
+  margin: 0;
+}
+#email,#country {
+    width: 300px;
+    padding: 8px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+.sub_button{
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .sub_button:hover {
+    background-color: #45a049;
+  }
+  label {
+    display: block !important;
+    margin-bottom: 0 !important;
+}
+ 
+.submit{
+    background: #e1e5e7;
+    border: 1px solid #ccc;
+    outline: unset;
+    padding: 5px 20px;
+    margin: 0 1rem;
+}
+
+.line::after{
+       position: absolute;
+       content: "";
+       height: 25px;
+       background-color: #242424;
+       width: 50%;
+       margin-left: 15px;
+       top: 50%;
+}
+  label {
+    cursor: pointer;
+  display: inline-block;
+  position: relative;
+}
+label:before {  
+    content: "";
+    width: 26px;
+    height: 26px;
+    position: absolute;  
+    right: 0;
+}
+input[type=checkbox] {  
+    display: none;  
+}
+.checkbox label:before {
+    background: url('../images/circle.svg') center no-repeat;
+    margin-top: 2px;
+}
+
+input[type=checkbox]:checked + label:before {  
+    background: url('../images/circle-tick.svg') center no-repeat;  
+}
+
+.box-cont-l:hover p{
+    color: #fff;
+
+}
+
+
+.paent {
+    height: 60%;
+    max-height: 77%;
+    overflow: auto;
+}
+.paent::-webkit-scrollbar {
+  width: 6px;
+}
+.paent::-webkit-scrollbar-track {
+  /*box-shadow: inset 0 0 5px grey; */
+  border-radius: 10px;
+}
+.paent::-webkit-scrollbar-thumb {
+  background: #6E82A5; 
+  border-radius: 10px;
+}
+
+
+/* second page */
+
+.boxes-r {
+    border-radius: 5px;
+    padding: 20px;
+    height: auto;
+    
+  }
+  .buttons-r{
+    width: 66.7%;
+    bottom: 0;
+}
+.submit{
+    background: #e1e5e7;
+    border: 1px solid #ccc;
+    outline: unset;
+    padding: 5px 20px;
+    margin: 0 1rem;
+}
+button.submit.line {
+    position: relative;
+}
+
+button.submit.line::after {
+    content: '';
+    background: #ccc;
+    width: 1px;
+    top: 5px;
+    height: 25px;
+    right: -20px;
+    position: absolute;
+}
